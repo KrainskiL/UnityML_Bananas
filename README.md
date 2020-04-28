@@ -1,7 +1,7 @@
 # Udacity Deep Reinforcement Learning Nanodegree
-## Project 1 - Banana Navigation
----
-It's the first project for the Udacity Deep Reinforcement Learning Nanodegree. The goal is to implement model based on [Deep Q-Network (DQN)](https://deepmind.com/research/dqn/) to collect yellow bananas and avoid blue bananas in Unity ML-Agents enironment. 
+## Project 1 - Banana Navigation :banana:
+
+It's the first project for the Udacity Deep Reinforcement Learning Nanodegree. The goal is to implement model based on [Deep Q-Network (DQN)](https://deepmind.com/research/dqn/) to collect yellow bananas and avoid blue bananas in Unity ML-Agents environment. 
 
 ![Trained DQN Agent](./img/Bananas.gif)
 ## Environment description
@@ -26,7 +26,7 @@ The task is episodic, and in order to solve the environment, your agent must get
 :warning: You may encounter PyTorch installation issues on Windows 10. Looks like required version of PyTorch must be installed using conda: `conda install pytorch=0.4.0 -c pytorch` before running `pip install` in Point 3.
 
 
-2. Download custom :banana: environment (Unity ML-Agents env) prepared by Udacity
+2. Download custom Banana environment (Unity ML-Agents env) prepared by Udacity
 
 Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
 Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
@@ -44,6 +44,6 @@ env = UnityEnvironment(file_name="./Banana_Windows_x86_64/Banana.exe")
 
 3. Run the `Navigation.ipynb` notebook using the `drlnd` kernel to train the DQN agent.
 
-Once trained the model weights will be saved in the same directory in the file `model.pth`.
+Once trained, the model weights will be saved in the same directory in the file `model.pth`.
 
 4. You can see how trained agent move in environment by running `Watch_Agent.ipynb` notebook.
