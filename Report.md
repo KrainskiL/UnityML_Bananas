@@ -1,5 +1,4 @@
 # Report for Banana Navigation
----
 
 ## State and action space, rewards in environment
 The simulation contains a single agent navigating in a large, square environment.
@@ -59,13 +58,13 @@ Used hyperparameters values were found by trial and error until satisfactory res
 ### Neural Network
 The NN model utilize 2 x 64 Fully Connected Layers with Relu activation followed by a final Fully Connected layer with the same number of units as the action size. The network has an initial dimension the same as the state size. 
 
-![NN Architecture](./img/NN_arch.png)
+![NN Architecture](https://github.com/KrainskiL/UnityML_Bananas/blob/master/img/NN_arch.png?raw=true)
 
 Used architecture is the same as in [`solution/Deep_Q_Network_Solution.ipynb`](https://github.com/udacity/deep-reinforcement-learning/blob/master/dqn/solution/Deep_Q_Network_Solution.ipynb) 
 
 ## Plot of score
 
-![Score](./img/Scores.png)
+![Score](https://github.com/KrainskiL/UnityML_Bananas/blob/master/img/Scores.PNG?raw=true)
 
 ```
 Episode 100	Average Score: 3.12
@@ -75,7 +74,7 @@ Episode 344	Average Score: 13.05
 Environment solved in 244 episodes!	Average Score: 13.05
 ```
 
-## Ideas for Future Work
+## Ideas for improvements
 
 Hyperparameters for both DQN Agent and DQN training may be explored more systematically e.g. grid search but that requires much more computing power. GPU usage is suggested. 
 
